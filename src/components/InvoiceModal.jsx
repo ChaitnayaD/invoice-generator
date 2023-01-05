@@ -48,13 +48,13 @@ export const InvoiceModal = (props) => {
                                 <div className='fw-bold'>Billed To:</div>
                                 <div>{props.billTo.toWhom}</div>
                                 <div>{props.billTo.billingAddress}</div>
-                                <div>{props.billTo.emailAddress}</div>
+                                <h6>{props.billTo.emailAddress}</h6>
                             </div>
                             <div className='col-md-4 mb-2 mb-xl-0'>
                                 <div className='fw-bold'>Billed From:</div>
                                 <div>{props.billFrom.fromWhom}</div>
                                 <div>{props.billFrom.billingAddress}</div>
-                                <div>{props.billFrom.emailAddress}</div>
+                                <h6>{props.billFrom.emailAddress}</h6>
                             </div>
                             <div className='col-md-4 mb-xl-0'>
                                 <div className='fw-bold'>Date Of Issue:</div>
