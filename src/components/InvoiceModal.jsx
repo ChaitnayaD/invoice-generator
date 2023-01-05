@@ -39,7 +39,7 @@ export const InvoiceModal = (props) => {
                         </div>
                         <div className='px-4 py-4 text-end'>
                             <h4 className='fw-bold'>Amount Due:</h4>
-                            <h6 className=' fw-bold text-secondary'>${props.bill.total}</h6>
+                            <h6 className=' fw-bold text-secondary'>{props.currency}{props.bill.total}</h6>
                         </div>
                     </div>
                     <div className='p-4 mb-0 pb-0'>
